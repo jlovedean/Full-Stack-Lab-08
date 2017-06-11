@@ -1,0 +1,19 @@
+.whiteBoard {
+    width: 600px;
+    height: 600px;
+    background-color: grey;
+    margin-top: 25px;
+    margin-right: 40px;
+    position: relative;
+    float: left
+}
+
+.sizeReturn {
+    
+}
+
+.circle {
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;
+}
