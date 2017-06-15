@@ -1,19 +1,44 @@
-.whiteBoard {
+#canvas {
     width: 600px;
     height: 600px;
     background-color: grey;
     margin-top: 25px;
     margin-right: 40px;
     position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
     float: left
 }
 
-.sizeReturn {
-    
+#size-return {
+    display: inline-block;
+    width: 400px;
+    margin: 25px 40px;
+    vertical-align: top;
+}
+
+.shape {
+    cursor: pointer;
+    position: absolute;
 }
 
 .circle {
     background-color: purple;
     border-radius: 50%;
-    position: absolute;
+}
+
+.triangle {
+    border-width: 0;
+    border-color: transparent;
+    border-bottom-color: yellow;
+    border-style: solid;
+}
+
+.rectangle {
+    background-color: green;
+}
+
+.square {
+    background-color: red;
 }
